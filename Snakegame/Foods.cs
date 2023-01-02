@@ -12,8 +12,8 @@ namespace Snakegame
 {
     public abstract class Foods
     {
-        public int Value;
-        public string Colour;
+        public int Value { get; set; };
+        public string Colour { get; set; };
         public int X { get; set; }
         public int Y { get; set; }
 

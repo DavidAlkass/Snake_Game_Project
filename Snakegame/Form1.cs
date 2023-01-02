@@ -243,40 +243,20 @@ namespace Snakegame
 
         private void EatFood()
         {
-            if (food is smallFood)
+            score += food.Value
+
+            Square body = new Square
+            X = Snake[Snake.Count - 1].X,
+            Y = Snake[Snake.Count - 1].Y
+
+            Snake.Add(body);
+
+            if (food is bigFood)
             {
-                score += 1;
-
-                Square body = new Square
-                {
-                    X = Snake[Snake.Count - 1].X,
-                    Y = Snake[Snake.Count - 1].Y
-                };
-
                 Snake.Add(body);
             }
-            else if (food is bigFood)
-            {
-                score += 5;
 
-                Square body = new Square
-                {
-                    X = Snake[Snake.Count - 1].X,
-                    Y = Snake[Snake.Count - 1].Y
-                };
-
-                Snake.Add(body);
-
-                Square body2 = new Square
-                {
-                    X = Snake[Snake.Count - 1].X,
-                    Y = Snake[Snake.Count - 1].Y
-                };
-
-                Snake.Add(body2);
-            }
             Scorebar.Text = "Score: " + score;
- 
 
             if (rand.Next(2) == 1)
             {
@@ -286,8 +266,6 @@ namespace Snakegame
             {
                 food = new bigFood { X = rand.Next(2, maxWidth), Y = rand.Next(2, maxHeight) };
             }
-
-
         }
 
         private void GameOver()
