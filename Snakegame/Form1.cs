@@ -243,12 +243,13 @@ namespace Snakegame
 
         private void EatFood()
         {
-            score += food.Value
+            score += food.Value;
 
             Square body = new Square
-            X = Snake[Snake.Count - 1].X,
-            Y = Snake[Snake.Count - 1].Y
-
+            {
+                X = Snake[Snake.Count - 1].X,
+                Y = Snake[Snake.Count - 1].Y
+            };
             Snake.Add(body);
 
             if (food is bigFood)
