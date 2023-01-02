@@ -1,0 +1,11 @@
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.csproj.AssemblyReference.cache
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.csproj.SuggestedBindingRedirects.cache
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.Form1.resources
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.Properties.Resources.resources
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.csproj.GenerateResource.cache
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.csproj.CoreCompileInputs.cache
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\bin\Debug\Snakegame.exe.config
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\bin\Debug\Snakegame.exe
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\bin\Debug\Snakegame.pdb
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.exe
+C:\Users\David\OneDrive\Dokument\Skola\Teknisk Matematik\OOP\Snakegame\Snakegame\obj\Debug\Snakegame.pdb
